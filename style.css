@@ -1,0 +1,109 @@
+@font-face
+{
+    font-family: "Heebo Black";
+    src: url("./assets/fonts/Heebo-Black.ttf");
+}
+
+@font-face
+{
+    font-family: "Heebo Medium";
+    src: url("./assets/fonts/Heebo-Medium.ttf");
+}
+
+html
+{
+    font-family: "Heebo Medium";
+    padding: 50px;
+    margin: 0px;
+    background: #FBBC05;
+}
+
+body
+{
+    max-width: 800px;
+    margin: auto;
+}
+
+a
+{
+    text-decoration: none;
+    color: black; 
+    font-family: inherit;
+}
+
+ul 
+{
+    padding: 1px 1px 0px 0px;
+    margin: 10px;
+}
+
+.download 
+{
+    padding: 5px 10px;
+    background: #ffffff;
+    box-shadow: 5px 5px black;
+    display: inline-block;
+    margin: 4px;
+    border: 1px solid black;
+    transition: all ease 0.1s;
+}
+
+.download:hover 
+{
+    margin: 0px 8px 8px 0px;
+    box-shadow: 9px 9px black;
+}
+
+li
+{
+    padding: 5px; 
+    list-style: none;
+}
+
+h1
+{
+    font-size: 2rem;
+    font-family: "Heebo Black";
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    display: inline-block; 
+    color: white;
+    
+}
+
+p
+{
+    font-family: "Heebo Medium", sans-serif;
+    text-emphasis: true;
+}
+
+hr
+{
+    background: #000; 
+    border: 0; 
+    color: #000;
+    height: 3px;
+}
+
+footer
+{
+    text-align: center;
+    font-size: 0.8rem;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+@media only screen and (max-width: 550px)
+{
+    .icon
+    {
+        display: block;
+        margin: 60px 0 20px 0;
+    }
+
+    .logo
+    {
+        width: calc(100% - 20px);
+    }
+}
