@@ -25,6 +25,7 @@ body
 {
     max-width: 800px;
     margin: auto;
+    text-align: left; 
 }
 
 #content {
@@ -117,7 +118,7 @@ h1
     display: inline-block;
     padding: 5px 50px 5px;
     color: white;
-    text-shadow: 2px 2px black; 
+    text-shadow: -2px -2px black; 
 
 }
 
