@@ -10,25 +10,38 @@
     src: url("./assets/fonts/PlayfairDisplay-Regukar.ttf");
 }
 
-#full-box {
-    border: 5px solid black;
-    padding: 5px 50px 5px;
-    background: white; 
-    
-}
-
 html
 {
     padding: 50px;
     margin: 0px;
     color: black; 
-    background: grey;
+    background-image: url(assets/greystripes.png)
 }
 
 body
 {
     max-width: 800px;
     margin: auto;
+}
+
+#full-box {
+    border: 5px solid black;
+    background: white; 
+}
+
+.section {
+    border-top: 5px solid black;
+    width: auto;
+    padding: 5px 50px 5px
+
+}
+
+#presentation {
+    background: cyan; 
+}
+
+#report {
+    background: violet;
 }
 
 a
@@ -44,6 +57,14 @@ ul
     margin: 10px;
 }
 
+@keyframes download {
+    0%, 100% {background: #4285F4}
+    25% {background: #DB4437}
+    50% {background: #F4B400}
+    75% {background: #0F9D58}
+
+}
+
 .download 
 {
     padding: 5px 10px;
@@ -52,13 +73,16 @@ ul
     display: inline-block;
     margin: 4px;
     border: 3px solid black;
+    
 }
 
 .download:hover 
 {
     color: white;
     border: 3px solid white;
-    background: black;
+    animation-name: download; 
+    animation-duration: 1s; 
+    animation-iteration-count: infinite; 
     
 }
 
@@ -73,7 +97,8 @@ h1
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
-    display: inline-block; 
+    display: inline-block;
+    padding: 5px 50px 5px
     
 }
 
@@ -99,6 +124,9 @@ footer
     margin: auto;
     margin-top: 100px;
     color: black; 
+    background: pink;
+    border: 5px solid black;
+    padding: 20px;
 }
 
 @media only screen and (max-width: 550px)
