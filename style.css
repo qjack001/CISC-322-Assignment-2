@@ -1,21 +1,28 @@
 @font-face
 {
-    font-family: "Heebo Black";
-    src: url("./assets/fonts/Heebo-Black.ttf");
+    font-family: "Playfair Black";
+    src: url("./assets/fonts/PlayfairDisplay-Black.ttf");
 }
 
 @font-face
 {
-    font-family: "Heebo Medium";
-    src: url("./assets/fonts/Heebo-Medium.ttf");
+    font-family: "Playfair Regular";
+    src: url("./assets/fonts/PlayfairDisplay-Regukar.ttf");
+}
+
+#full-box {
+    border: 5px solid black;
+    padding: 5px 50px 5px;
+    background: white; 
+    
 }
 
 html
 {
-    font-family: "Heebo Medium";
     padding: 50px;
     margin: 0px;
-    background: #4285F4;
+    color: black; 
+    background: grey;
 }
 
 body
@@ -27,7 +34,7 @@ body
 a
 {
     text-decoration: none;
-    color: black; 
+    color: inherit; 
     font-family: inherit;
 }
 
@@ -41,17 +48,18 @@ ul
 {
     padding: 5px 10px;
     background: #ffffff;
-    box-shadow: 5px 5px black;
+    color: black; 
     display: inline-block;
     margin: 4px;
-    border: 1px solid black;
-    transition: all ease 0.1s;
+    border: 3px solid black;
 }
 
 .download:hover 
 {
-    margin: 0px 8px 8px 0px;
-    box-shadow: 9px 9px black;
+    color: white;
+    border: 3px solid white;
+    background: black;
+    
 }
 
 li
@@ -63,17 +71,15 @@ li
 h1
 {
     font-size: 2rem;
-    font-family: "Heebo Black";
     text-transform: uppercase;
     letter-spacing: 0.1rem;
     display: inline-block; 
-    color: white;
     
 }
 
 p
 {
-    font-family: "Heebo Medium", sans-serif;
+    font-family: serif;
     text-emphasis: true;
 }
 
@@ -92,6 +98,7 @@ footer
     max-width: 400px;
     margin: auto;
     margin-top: 100px;
+    color: black; 
 }
 
 @media only screen and (max-width: 550px)
