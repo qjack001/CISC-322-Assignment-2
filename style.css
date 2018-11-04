@@ -14,8 +14,11 @@ html
 {
     padding: 50px;
     margin: 0px;
-    color: black; 
-    background-image: url(assets/greystripes.png)
+    color: black;
+    
+    background-image: url(assets/greystripes.png); 
+    background-repeat: repeat; 
+    background-attachment: fixed; 
 }
 
 body
@@ -24,15 +27,28 @@ body
     margin: auto;
 }
 
-#full-box {
+#content {
     border: 5px solid black;
     background: white; 
+    background-attachment: scroll; 
+}
+
+.parallax {
+    background-image: url(assets/greystripes.png);
+    
+    height: 100%; 
+    
+    
+    background-size: cover; 
+    background-repeat: repeat; 
+    background-attachment: fixed; 
 }
 
 .section {
     border-top: 5px solid black;
     width: auto;
-    padding: 5px 50px 5px
+    padding: 5px 50px 5px; 
+    margin: 0px
 
 }
 
