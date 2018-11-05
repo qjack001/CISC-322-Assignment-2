@@ -62,6 +62,15 @@ body
     background: violet;
 }
 
+.download a 
+{
+    margin: 0; 
+    text-align: center; 
+    transform:translateX(100%);  
+    animation: marquee 15s linear infinite;
+    position: relative; 
+}
+
 a
 {
     text-decoration: none;
@@ -83,14 +92,23 @@ ul
 
 }
 
+@keyframes marquee {
+ 0%   { 
+    transform: translateX(100%); 		
+ }
+ 100% { 
+    transform: translateX(-100%); 
+ }
+}
+
 .download 
 {
     padding: 5px 10px;
     background: #ffffff;
     color: black; 
     display: inline-block;
-    margin: 4px;
     border: 3px solid black;
+    position: relative; 
     
 }
 
