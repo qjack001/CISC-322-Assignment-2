@@ -20,6 +20,11 @@
     }
 }
 
+*
+{
+    cursor: url(assets/cursor.png);
+}
+
 html
 {
     padding: 50px 10px;
@@ -76,6 +81,7 @@ a
     width: 100%;
     padding: 15px;
     display: inline-block;
+    cursor: url(assets/pointer.png);
 }
 
 .container
