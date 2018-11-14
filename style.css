@@ -29,7 +29,7 @@ html
     background-image: url(assets/background.png); 
     background-repeat: repeat; 
     background-attachment: fixed; 
-    background-size: 10px;
+    background-size: 12px;
 }
 
 body
@@ -37,6 +37,19 @@ body
     max-width: 1000px;
     margin: auto;
     text-align: left; 
+}
+
+#overlay
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    pointer-events: none;
+    background-size: contain;
+    z-index: 1000;
 }
 
 h1
