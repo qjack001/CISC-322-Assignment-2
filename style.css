@@ -82,7 +82,7 @@ a
 {
     display: grid;
     grid-template-columns: auto 50px auto;
-    grid-template-rows: 300px auto auto;
+    grid-template-rows: 300px auto auto auto;
     border: 5px solid black;
 }
 
@@ -136,7 +136,7 @@ a
 
 #report:hover
 {
-    background-color: red; 
+    background-color: #5800ff; 
     color: white;
 }
 
@@ -151,6 +151,20 @@ a
 #credit:hover
 {
     background-color: green; 
+    color: white;
+}
+
+#about
+{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+#about:hover
+{
+    background-color: red; 
     color: white;
 }
 
@@ -184,7 +198,7 @@ a
     .container
     {
         grid-template-columns: auto;
-        grid-template-rows: 300px auto auto auto auto auto;
+        grid-template-rows: 300px auto auto auto auto;
     }
 
     #logo
@@ -211,7 +225,7 @@ a
         grid-column-end: 2;
         grid-row-start: 3;
         grid-row-end: 4;
-        background-color: red; 
+        background-color: #5800ff; 
         color: white;
         padding-bottom: 80px;
     }
@@ -223,6 +237,16 @@ a
         grid-row-start: 4;
         grid-row-end: 5;
         background-color: green; 
+        color: white;
+    }
+    
+    #about
+    {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 5;
+        grid-row-end: 6;
+        background-color: red; 
         color: white;
     }
 }
