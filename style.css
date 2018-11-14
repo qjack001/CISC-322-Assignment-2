@@ -182,9 +182,35 @@ a
     animation: download 0.4s infinite; 
 }
 
+#home
+{
+    position: absolute;
+    top: 80px;
+    left: -100px;
+    padding: 0px 200px;
+    transform: rotate(-35deg);
+    background: #FC466B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(left, #3F5EFB, #FC466B);
+    background: -o-linear-gradient(left, #3F5EFB, #FC466B);
+    background: linear-gradient(to right, #3F5EFB, #FC466B); 
+    
+    color: white;
+    font-size: 2rem;
+}
+
+#home a
+{
+    letter-spacing: 0;
+    font-style: italic;
+}
 
 @media only screen and (max-width: 600px)
 {
+    html
+    {
+        padding-top: 100px;
+    }
+    
     h2
     {
         font-size: 5rem;
@@ -248,5 +274,12 @@ a
         grid-row-end: 6;
         background-color: red; 
         color: white;
+    }
+    
+    #home
+    {
+        padding: 0px 220px;
+        transform: rotate(-30deg);
+        font-size: 1.2rem;
     }
 }
