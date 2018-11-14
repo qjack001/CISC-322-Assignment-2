@@ -206,11 +206,6 @@ a
 
 @media only screen and (max-width: 600px)
 {
-    html
-    {
-        padding-top: 100px;
-    }
-    
     h2
     {
         font-size: 5rem;
