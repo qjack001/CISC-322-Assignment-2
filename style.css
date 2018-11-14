@@ -317,6 +317,7 @@ a
         padding: 0px 220px;
         transform: rotate(-30deg);
         font-size: 1.2rem;
+        overflow: hidden;
     }
     
     #about h2
