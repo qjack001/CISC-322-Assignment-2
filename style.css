@@ -1,13 +1,7 @@
 @font-face
 {
-    font-family: "Playfair Black";
-    src: url("./assets/fonts/PlayfairDisplay-Black.ttf");
-}
-
-@font-face
-{
-    font-family: "Playfair Regular";
-    src: url("./assets/fonts/PlayfairDisplay-Regukar.ttf");
+    font-family: "Bluu";
+    src: url("./assets/fonts/bluu.ttf");
 }
 
 @keyframes download 
@@ -48,6 +42,12 @@ body
 h1
 {
     display: none;
+}
+
+h3
+{
+    font-family: "Bluu";
+    font-size: 4rem;
 }
 
 a
